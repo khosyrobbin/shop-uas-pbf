@@ -1,52 +1,44 @@
 [
-
   {
-    "title": "Setrika Toshiba A4567",
-    "category": "Setrika",
-    "price": 2880000,
-    "stok": 15,
-    "image": "https://images.tokopedia.net/img/cache/700/product-1/2017/2/26/16788136/16788136_1b3fe628-1f95-4ed6-b76a-97b06058b007_300_300.jpg"
+    "title": "Blue Stripe Stoneware Plate",
+    "brand": "Kiriko",
+    "price": 40,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "blue-stripe-stoneware-plate.jpg"
   },
   {
-    "title": "Setrika Sharp C4590",
-    "category": "Setrika",
-    "price": 9870000,
-    "stok": 15,
-    "image": "https://cf.shopee.co.id/file/fe8bdf439ccc1a17b155ddfed8d72c14_tn"
+    "title": "Hand Painted Blue Flat Dish",
+    "brand": "Kiriko",
+    "price": 28,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
+    "image": "hand-painted-blue-flat-dish.jpg"
   },
   {
-    "title": "Setrika Samsung G1459",
-    "category": "Setrika",
-    "price": 7890000,
-    "stok": 15,
-    "image": "https://cf.shopee.co.id/file/386fe92f3ccdb263c0c4f9ea9bc0b8c5"
+    "title": "Heme",
+    "brand": "Dust & Form",
+    "price": 52,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
+    "image": "heme.jpg"
   },
   {
-    "title": "Supera Setrika AR470",
-    "category": "Setrika",
-    "price": 900000,
-    "stok": 15,
-    "image": "https://images.tokopedia.net/img/cache/700/product-1/2016/12/26/14964852/14964852_652ea938-239a-4dad-a14a-08007a1d601b_300_300.jpg"
+    "title": "Mashiko-Yaki Green Small Plate",
+    "brand": "Kiriko",
+    "price": 28,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-green-small-plate.jpg"
   },
   {
-    "title": "Setrika Gajah A6623",
-    "category": "Setrika",
-    "price": 600000,
-    "stok": 15,
-    "image": "https://cdn1.productnation.co/stg/sites/5/Panasonic-NI-P300T-Setrika-Uap-300x300.jpg"
+    "title": "Mashiko-Yaki Indigo Small Plate",
+    "brand": "Kiriko",
+    "price": 28,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-indigo-small-plate.jpg"
   },
   {
-    "title": "Setrika Sharp T9811",
-    "category": "Setrika",
-    "price": 1700000,
-    "stok": 15,
-    "image": "https://tokoonline88.com/wp-content/uploads/2017/07/setrika-uap-portable-1-300x300.jpg"
-  },
-  {
-    "title": "Setrika Samsung K1569",
-    "category": "Setrika",
-    "price": 8740000,
-    "stok": 15,
-    "image": "https://cdn.statically.io/img/mediaini.com/f=auto%2Cq=82/wp-content/uploads/2022/01/nankai-by-tokped-300x300.jpg"
+    "title": "Mashiko-Yaki Saucer",
+    "brand": "Kiriko",
+    "price": 18,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "mashiko-yaki-saucer.jpg"
   }
 ]
