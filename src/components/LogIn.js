@@ -6,6 +6,8 @@ import "./Login.css";
 
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
+
+import { Link } from 'react-router-dom';
 // import Sepatu from "../img/shoes.png";
 
 
@@ -54,6 +56,8 @@ const LogIn = () => {
                             Log In
                         </AwesomeButton>
                     </div>
+                    <div className="button-container"><a><Link to="/signup"><h3>Register</h3></Link></a></div>
+                    
                 </form>
             </div>
         </>

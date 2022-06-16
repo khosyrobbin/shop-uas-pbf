@@ -6,6 +6,8 @@ import './Navigation.css';
 // import Logo from "../../media/logo.png";
 import CartWindow from '../cart-window/Cart-window';
 
+import firebaseConfig from "../../config";
+
 class Navigation extends Component {
 
     state = {
@@ -53,19 +55,21 @@ class Navigation extends Component {
                 {/* <img src={Logo} className="col-2 logo" /> */}
                 <div className="col-8 items">
                     <ul>
-                        <li><Link to={`/`}>HOME</Link></li>
-                        <li><Link to={`/ShopList`}>SHOP</Link></li>
-                        <li><Link to={`/Profiles`}>PROFILE</Link></li>
+                        <li><Link to={`/dashboard`}>HOME</Link></li>
+                        <li><Link to={`/shoplist`}>SHOP</Link></li>
+                        <li><Link to={`/cart`}>CART</Link></li>
+                        <li><Link to={`/profiles`}>PROFILE</Link></li>
+                        <li><Link onClick={() => firebaseConfig.auth().signOut()}>SIGN OUT</Link></li>
                     </ul>
                 </div>
-                <div className="col-2 cart-link">
+                {/* <div className="col-2 cart-link">
                     <p><Link to={`/cart`}>MY CART(<span>{this.state.count}</span>)</Link></p>
                     {this.state.openCartWindow ? <div className="cart-window-wrap">
                         <CartWindow products={this.props.cartItems.products} />
                         <button className="btn view-cart" onClick={this.navigateToCart.bind(this)}>VIEW CART</button>
                         <button className="btn close-preview" onClick={this.closeCartWindow.bind(this)}>CLOSE PREVIEW</button>
                     </div> : null}
-                </div>
+                </div> */}
             </div>
         );
     }
@@ -78,4 +82,4 @@ const mapStoreToProps = (store) => {
     }
 };
 
-// export default withRouter(connect(mapStoreToProps)(Navigation));
+export default withRouter(connect(mapStoreToProps)(Navigation));

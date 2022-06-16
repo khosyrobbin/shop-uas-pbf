@@ -10,7 +10,7 @@ import Cart from "./components/cart/Cart";
 import Product from "./components/product/Product";
 import Profiles from "./components/profile/Profiles";
 
-// import Navigation from "./components/navigation/Navigation";
+import Navigation from "./components/navigation/Navigation";
 import HomeContainer from "./components/home-container/Home-container";
 import ShopList from "./components/shop-list/ShopList";
 
@@ -20,11 +20,11 @@ const App = () => {
       <Router>
         <Switch>
         
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={LogIn} />
           <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/login" component={LogIn} />
           <Route exact path="/signup" component={SignUp} />
-          {/* <Navigation /> */}
+          <Navigation />
           <Route exact path="/cart" component={Cart} />
           <Route exact path="/product/:id" component={Product} />
           <Route exact path="/shoplist" component={ShopList} />

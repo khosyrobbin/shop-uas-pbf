@@ -3,6 +3,7 @@ import { Redirect } from "react-router-dom";
 import firebaseConfig from "../config";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
+import { Link } from 'react-router-dom';
 
 
 const SignUp = () => {
@@ -43,6 +44,7 @@ const SignUp = () => {
                             </AwesomeButton>
                             {/* <input type="submit" value="Register" /> */}
                         </div>
+                        <div className="button-container"><a><Link to="/login"><h3>Log In</h3></Link></a></div>
                     </form>
                 </div>
 
