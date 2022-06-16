@@ -78,4 +78,4 @@ const mapStoreToProps = (store) => {
     }
 };
 
-export default withRouter(connect(mapStoreToProps)(Navigation));
+// export default withRouter(connect(mapStoreToProps)(Navigation));
