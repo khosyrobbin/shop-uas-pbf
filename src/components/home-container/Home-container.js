@@ -13,10 +13,6 @@ class HomeContainer extends Component {
         return (
             <div className="home-container">
                 <HeroBanner />
-                {/* <div className='item'>
-                    <img src='https://source.unsplash.com/random/300x300/?ironing'></img>
-                    <p>Selamat Datang di Online Shop kami!</p>
-                </div> */}
             </div>
         );
     }
