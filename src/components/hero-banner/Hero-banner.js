@@ -3,9 +3,11 @@ import './Hero-banner.css';
 import Navigation from '../navigation/Navigation';
 import { Link } from 'react-router-dom';
 import firebaseConfig from "../../config";
+import ItemList from "../item-list/ItemList";
+import "../shop-list/ShopList.css";
+import { connect } from 'react-redux';
 
 const HeroBanner = () => {
-
     return (
         <div className="hero-banner row">
             <div className="col-8 items">
@@ -23,9 +25,11 @@ const HeroBanner = () => {
                 <p>Find what you need easely in our shop!</p>
             </div>
         </div>
-
     );
-
 }
+
+// const mapStoreToProps = (store) => {
+//     return { products: store.ItemListReducer }
+// };
 
 export default HeroBanner;
