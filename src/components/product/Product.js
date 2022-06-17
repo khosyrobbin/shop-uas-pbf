@@ -36,8 +36,7 @@ class Product extends Component {
             </div>
                 <div className="Product row">
                     <div className="col-8">
-                        <img src={this.props.products.products[this.state.id].image} alt={this.props.products.products[this.state.id].title} />
-                    </div>
+                        <img src={`../media/${this.props.products.products[this.state.id].image}`} alt={this.props.products.products[this.state.id].title} />                    </div>
                     <div className="col-4 info">
                         <p className="category">{this.props.products.products[this.state.id].category}</p>
                         <p className="title">{this.props.products.products[this.state.id].title}</p>
