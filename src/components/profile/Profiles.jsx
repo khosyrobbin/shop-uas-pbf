@@ -12,7 +12,7 @@ const HeroBanner = () => {
                 <p>1941720166</p>
                 <p>TI-3D</p>
                 <h1>Khosy Robbin Hood</h1>
-                <p>1941720---</p>
+                <p>1941720067</p>
                 <p>TI-3D</p>
             </div>
         </div>
