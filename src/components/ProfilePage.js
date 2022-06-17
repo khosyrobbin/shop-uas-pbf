@@ -5,9 +5,10 @@ import './home-container/Home-container.css';
 import HomeContainer from "./home-container/Home-container";
 import { connect } from "react-redux";
 import Navigation from "./navigation/Navigation";
+import Profiles from "./profile/Profiles";
 
 
-const Dashboard = () => {
+const ProfilePage = () => {
     const { currentUser } = useContext(AuthContext);
     if (!currentUser) {
         return <Redirect to="/login" />;
@@ -15,7 +16,7 @@ const Dashboard = () => {
     return (
         <div>
                 <Navigation />
-                <HomeContainer />
+                <Profiles />
         </div>
     );
 };
@@ -25,4 +26,4 @@ const mapStoreToProps = (store) => {
 };
 
 
-export default connect(mapStoreToProps)(Dashboard);
+export default connect(mapStoreToProps)(ProfilePage);

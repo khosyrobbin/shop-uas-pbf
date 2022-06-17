@@ -14,7 +14,6 @@ const HeroBanner = () => {
                 <h1>Khosy Robbin Hood</h1>
                 <p>1941720---</p>
                 <p>TI-3D</p>
-                <Link to={`/dashboard`}>HOME</Link>
             </div>
         </div>
     );

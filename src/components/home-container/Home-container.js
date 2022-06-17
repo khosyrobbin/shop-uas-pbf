@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import HeroBanner from "../hero-banner/Hero-banner";
-import ItemList from "../item-list/ItemList";
 import './Home-container.css';
 
 class HomeContainer extends Component {

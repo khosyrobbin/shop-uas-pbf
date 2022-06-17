@@ -1,20 +1,17 @@
 import React from "react";
 import { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
 import LogIn from "./components/LogIn";
 import SignUp from "./components/SignUp";
 import { AuthProvider } from "./components/Auth";
-
-import Cart from "./components/cart/Cart";
+import CartPage from "./components/CartPage";
+import ProductPage from "./components/ProductPage";
+// import Profiles from "./components/profile/Profiles";
+// import ShopList from "./components/shop-list/ShopList";
+import ProfilePage from "./components/ProfilePage";
+import ShopListPage from "./components/ShopListPage";
 import Product from "./components/product/Product";
-import Profiles from "./components/profile/Profiles";
-
-import Navigation from "./components/navigation/Navigation";
-import HomeContainer from "./components/home-container/Home-container";
-import ShopList from "./components/shop-list/ShopList";
-
 class App extends Component {
   render() {
   return (
@@ -22,13 +19,14 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path="/" component={LogIn} />
-          <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/login" component={LogIn} />
           <Route exact path="/signup" component={SignUp} />
-          <Route path="/cart" component={Cart} />
+          <Route exact path="/dashboard" component={Dashboard} />
+          <Route path="/cart" component={CartPage} />
+          
+          <Route path="/shoplist" component={ShopListPage} />
+          <Route exact path="/profiles" component={ProfilePage} />
           <Route path="/product/:id" component={Product} />
-          <Route path="/shoplist" component={ShopList} />
-          <Route exact path="/profiles" component={Profiles} />
         </Switch>
       </Router>
     </AuthProvider>
